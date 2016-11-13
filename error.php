@@ -11,6 +11,7 @@
 </body>
 </html>
 <?php
+
 //will redirect to main page in 3 seconds
 header('Refresh: 3;url=index.php');
 
