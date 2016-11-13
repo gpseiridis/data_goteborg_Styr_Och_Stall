@@ -14,7 +14,7 @@
  <form name="myform" action="display.php" method="POST">
 	
 		<select name="availableStations">
-			<option value="all">All</option>
+			<option value="all"> All stations</option>
 			<?php 
 				$array = explode( "\n", file_get_contents( "availableStations.php" ) );
 				$array_length = sizeof($array);
